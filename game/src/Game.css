@@ -1,0 +1,30 @@
+.Container {
+  width: 362px;
+  height: 185px;
+  position: relative;
+  overflow: hidden;
+  border-width:1;
+  border-color: rgb(190,190,190);
+  border-style: solid;
+}
+
+.Image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;   
+}
+.ChooseGestureFont{
+  margin: 1em 0 0.5em 0;
+  color: #f9f9fa;
+  font-weight: normal;
+  font-family: 'Ultra', sans-serif;  
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px #777;
+  text-align: center
+}

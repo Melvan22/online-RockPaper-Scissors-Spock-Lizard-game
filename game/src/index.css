@@ -1,0 +1,28 @@
+
+.animated-enter { 
+  opacity: 0.01;
+}
+ 
+.animated-enter.animated-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+ 
+.animated-leave { 
+  opacity: 1;
+}
+ 
+.animated-leave.animated-leave-active { 
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.Main{
+  width: 362px;
+  height: 1000px;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+  background: url(/images/background.jpg) repeat-x rgb(99, 105, 26);
+}
+

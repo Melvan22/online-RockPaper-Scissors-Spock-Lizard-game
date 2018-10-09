@@ -1,0 +1,22 @@
+.PrettyFont{
+    margin: 1em 0 0.5em 0;
+    color: #f9f9fa;
+    font-weight: normal;
+    font-family: 'Ultra', sans-serif;  
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    text-shadow: 0 2px white, 0 3px #777;
+    text-align: center;
+    position: fixed; /* or absolute */
+    
+        top: 40%;
+    
+        left: 45%;
+    
+        width: 200px;
+    
+        height:100px;
+    
+    
+}
